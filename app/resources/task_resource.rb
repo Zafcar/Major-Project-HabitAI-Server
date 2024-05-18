@@ -1,5 +1,5 @@
 class TaskResource < JSONAPI::Resource
-  attributes :name, :completed, :user_id, :created_at, :description
+  attributes :name, :completed, :user_id, :created_at, :description, :dueDateTime
 
   filter :created_at
 
